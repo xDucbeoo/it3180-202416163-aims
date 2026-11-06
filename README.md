@@ -4,3 +4,5 @@
 
 - Sinh viên: Nguyễn Hoàng Đức – MSSV 202416163
 - Chạy chương trình: `python main.py`
+
+- Yêu cầu: Python 3.10 trở lên.
