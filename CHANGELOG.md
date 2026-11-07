@@ -10,6 +10,11 @@ This changelog follows the Keep a Changelog format and Semantic Versioning.
 ### Added
 - No unreleased changes yet.
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+- Reject discount percentages outside the valid 0–100 range, including NaN.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
