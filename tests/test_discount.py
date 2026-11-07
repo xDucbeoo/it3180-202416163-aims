@@ -31,6 +31,10 @@ class TestCartDiscount(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.cart.total_cost_with_discount(150)
 
+    def test_nan_discount_percent(self):
+        with self.assertRaises(ValueError):
+            self.cart.total_cost_with_discount(float("nan"))
+
 
 if __name__ == "__main__":
     unittest.main()
