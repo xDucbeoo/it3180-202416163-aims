@@ -2,6 +2,9 @@ name: Python unit tests
 
 on:
   pull_request:
+    branches:
+      - master
+      - 'release/**'
 
 jobs:
   unit-tests:
