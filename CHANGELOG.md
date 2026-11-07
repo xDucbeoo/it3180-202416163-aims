@@ -16,6 +16,9 @@ This changelog follows the Keep a Changelog format and Semantic Versioning.
 - `search_by_category()` to search DVDs by category (case-insensitive).
 - Unit tests for category search, including empty input handling.
 
+### Fixed
+- Reject NaN discount percentages.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
