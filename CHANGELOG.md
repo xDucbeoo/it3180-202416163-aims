@@ -6,12 +6,16 @@ All notable changes to AIMS-mini will be documented in this file.
 This changelog follows the Keep a Changelog format and Semantic Versioning.
 
 
+
 ## [Unreleased]
 
 ### Added
 - `Cart.sort_by_title()` to sort DVDs alphabetically by title (case-insensitive).
 - `Cart.sort_by_cost()` to sort DVDs by price in ascending order.
 - Unit tests for both sorting methods, including verification that sorting does not change the cart total.
+- `search_by_category()` to search DVDs by category (case-insensitive).
+- Unit tests for category search, including empty input handling.
+
 
 
 ## [1.0.0] - 2026-11-07
